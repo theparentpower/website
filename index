@@ -23,7 +23,7 @@
                     <li>
                         <a href="#">About Us</a>
                         <ul class="menu">
-                            <li><a href="#">Core Focuses</a></li>
+                            <li><a href="about-us/core-focuses">Core Focuses</a></li>
                             <li><a href="#">Our Beginnings</a></li>
                             <li><a href="#">Empowerment Initiatives</a></li>
                             <li><a href="#">Leadership & Staff</a></li>
@@ -51,7 +51,6 @@
                         <a href="#">Connect</a>
                         <ul class="menu">
                             <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Follow Us</a></li>
                             <li><a href="#">Events</a></li>
                             <li><a href="#">News</a></li>
                         </ul>
@@ -74,13 +73,13 @@
 
 
     <div class="row" style="display:flex">
-        <div class="small-12 medium-6 columns about-section">
+        <div class="small-12 medium-12 large-6 columns about-section">
             <span class="body-header-1" id="header-tester-disabled">Our Vision</span>
             <p>In efficitur condimentum volutpat. Ut eget nulla turpis. Mauris vel lectus diam. Aenean arcu arcu, porta ut pretium in, molestie a massa. Sed sit amet bibendum nisi. Aliquam bibendum lorem eget sollicitudin vulputate. Duis vel diam vel ligula
                 aliquam interdum. In ultrices rutrum venenatis. Etiam vel risus interdum, tempor dui vitae, aliquam urna. Integer ultricies lectus vitae enim tincidunt, ut suscipit neque iaculis. Nam sit amet lacus a enim rutrum varius. Vivamus quis sapien
                 nisi. Maecenas vehicula justo id augue sollicitudin, vestibulum mollis risus porta.</p>
         </div>
-        <div class="medium-6 columns events-picture hide-for-small-only" style="flex:1"></div>
+        <div id="events-picture" class="medium-6 columns events-picture hide-for-small-only hide-for-medium-only" style="flex:1"></div>
     </div>
 
 
@@ -115,8 +114,8 @@
 
 
     <div class="row" style="display:flex">
-        <div class="medium-6 columns events-picture hide-for-small-only" style="flex:1"></div>
-        <div class="medium-6 columns about-section">
+        <div id="vision-picture" class="medium-6 columns events-picture hide-for-small-only" style="flex:1"></div>
+        <div class="small-12 medium-12 large-6 columns about-section">
             <span class="body-header-1" id="header-tester-disabled">Our Vision</span>
             <p>In efficitur condimentum volutpat. Ut eget nulla turpis. Mauris vel lectus diam. Aenean arcu arcu, porta ut pretium in, molestie a massa. Sed sit amet bibendum nisi. Aliquam bibendum lorem eget sollicitudin vulputate. Duis vel diam vel ligula
                 aliquam interdum. In ultrices rutrum venenatis. Etiam vel risus interdum, tempor dui vitae, aliquam urna. Integer ultricies lectus vitae enim tincidunt, ut suscipit neque iaculis. Nam sit amet lacus a enim rutrum varius. Vivamus quis sapien

@@ -5,6 +5,12 @@ var height = $('.navigation-bar').height();
   console.log($(window).offset());
 
 
+
+fillTiles();
+
+
+
+
 $(window).scroll(function(){
   if($(window).width()>500){
   if ($(window).scrollTop() > 0 ){
@@ -48,4 +54,25 @@ $(window).scroll(function(){
 
   }
 }
-})
+});
+
+function fillTiles(){
+  fillTiles_marginRight('#events-picture');
+  fillTiles_marginLeft('#vision-picture');
+}
+
+function fillTiles_marginRight(element){
+  var screen_width = $(document).width();
+  console.log("Screen width:");
+  console.log(screen_width);
+  console.log("Element width:");
+  console.log($(element).outerWidth());
+    $(element).css('margin-right', ($(element).outerWidth()-(screen_width/2)));
+
+}
+
+function fillTiles_marginLeft(element){
+  var screen_width = $(document).width();
+  $(element).css('margin-left',($(element).outerWidth()-(screen_width/2)));
+
+}
