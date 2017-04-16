@@ -1,0 +1,253 @@
+/* Global */
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+    height: 100% background-color: rgb(243, 240, 246);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+/*Navigation bar and banner*/
+
+.navigation-bar {
+    background-color:  #c9c9c9 !important;
+    height: 120px;
+
+}
+
+#logo-navbar {
+    height: 100px;
+    opacity: 1;
+}
+
+#title-navbar {
+    display: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+
+}
+
+div.top-bar-left {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#navbar-links {
+    padding-top: 50px;
+    background-color: transparent !important;
+}
+
+/* Arrow */
+
+
+
+.about-section{
+  padding: 30px;
+  padding-right: 100px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .about-section {
+    padding-right: 30px !important;
+    }
+
+    #main-logo{
+      max-height: 250px;
+    }
+
+    #navbar-links{
+      padding-top: 0px !important;
+    }
+
+    .navigation-bar{
+      height: auto;
+    }
+
+
+
+  }
+
+.about-section h5{
+  color: rgb(144, 106, 187);
+  margin-top:15px;
+
+}
+
+.about-section p{
+  margin-top:20px;
+}
+
+#navbar-links a {
+    color: black;
+    font-weight: bolder;
+}
+
+#navbar-links ul li  {
+    width: 120px !important;
+}
+
+
+#navbar-links ul li a {
+    background-color: white !important;
+    color: rgb(144, 106, 187);
+}
+
+
+/*Page */
+
+.main-body {
+    height: 100%;
+    background-image: url("../images/banner-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 24px;
+}
+
+.wrapper, .wrapper tbody {
+    background-color: rgba(93, 105, 138, 0.41);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0px !important;
+    color: white;
+}
+
+.wrapper td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#main-logo{
+  height: 400px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: solid white 2px;
+}
+
+.body-div:nth-child(odd) {
+    height: auto;
+    background-color: white;
+    color:rgb(136, 68, 172);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*opacity: 0;*/
+
+}
+
+.body-header-1{
+  /*background-color: rgb(144, 106, 187);
+  color:white;*/
+  color: rgb(144, 106, 187);
+  font-weight:bold;
+  font-size:30px;
+  padding: 5px;
+  margin-bottom:10px;
+  border-bottom: 2px solid rgb(144, 106, 187);
+  padding-bottom: 5px;
+}
+
+.body-header-2{
+  background-color: rgb(144, 106, 187);
+  color:white;
+/*  color: rgb(144, 106, 187);
+  font-weight:bold;*/
+  font-size:30px;
+  padding: 5px;
+  margin-bottom:10px;
+  /* border-bottom: 2px solid rgb(144, 106, 187);
+  padding-bottom: 5px;*/
+  border-radius: 3px;
+}
+
+.events-picture{
+  margin-top:0px;
+  margin-bottom: 0px;
+  background-image: url("http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif");
+  background-size: cover;
+
+
+  overflow-x: visible;
+
+}
+
+
+.body-div:nth-child(even) {
+  background-color: rgba(236, 236, 236, 1);
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0px !important;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.events-section-title {
+    color: rgb(144, 106, 187);
+
+    border-bottom: 2px rgb(144, 106, 187) solid;
+    font-weight: bold;
+    margin:0 auto;
+    max-width: 500px;
+
+}
+
+#events {
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.events-wrapper{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.events-header {
+    color: white;
+    background-color: rgb(139, 78, 152);
+    width: 100%;
+    font-size: 16px;
+}
+
+.calendar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.calendar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.calendar ul li {
+    color: #6e6e6e;
+    margin-top: .1em;
+    margin-bottom: .1em;
+    background-color: white;
+}
+
+.calendar ul li:nth-child(odd) {
+    background-color: #6e6e6e;
+    color: white;
+}
+
+
+
+.footer{
+  height:200px;
+  background-color: rgb(129, 129, 129);
+  color: rgb(131, 101, 166);
+}
