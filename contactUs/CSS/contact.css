@@ -2,11 +2,14 @@ section#contact {
 	color: #7A6CA9;
 	background:white;
 	display:block;
-	width:600px;
+	max-width: 600px;
 	padding:10px;
-	margin-top: 25px;
+	margin-top: 25px !important ;
 	border: solid 1px #f1f1f1;
 	font-family: 'Patua One', sans serif;
+	border-radius: 8px;
+	margin: auto;
+	text-align: center;
 }
 
 body{
@@ -18,18 +21,19 @@ body{
 
 #contact p{font-size: 18px;}
 
- .cform-text {width: 400px;}
+ /*.cform-text {max-width: 400px;}*/
 
  #contact input[type=text], select {
 	height: 3.25em;
 }
+
 
 select {
 	background: #f1f1f1;
 	font-family: 'Patua One', sans serif;
 	border: 0;
 	box-shadow: 2px 2px 2px #888;
-	width: 410px;
+	max-width: 410px;
 	vertical-align: middle;
 }
 
@@ -38,7 +42,7 @@ select {
 	font-family: 'Patua One', sans serif;
 	border: 0;
 	box-shadow: 2px 2px 2px #888;
-	width: 400px;
+	max-width: 400px;
 	text-align: left;
 	vertical-align: middle;
 }
@@ -56,7 +60,7 @@ select {
 input[type=submit] {
 	font-family: 'Patua One', cursive;
 	color: #fff;
-	width: 185px;
+	max-width: 185px;
 	height: 60px;
 	text-shadow: none;
 	font-size: 1.3125em;
@@ -77,3 +81,53 @@ input[type=submit] {
 }
 
 h1{color:#7A6CA9 ; padding-bottom: -5px;padding-top: 5px; font-family: 'Patua One'}
+
+/*Icon styles */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+    height:70px;
+  width:70px;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}

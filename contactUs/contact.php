@@ -1,5 +1,5 @@
 <?
-$mailto = 'sirgroot@live.com' ;
+$mailto = 'mmejia@theparentpower.org' ;
 $subject = "Parent Power Foundation Form Confirmation" ;
 $formurl = "contactUs.html" ;
 $errorurl = "error.html" ;

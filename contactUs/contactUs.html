@@ -6,9 +6,11 @@
     <link type="text/css" rel="stylesheet" href="../css/powerparent.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/contact.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 
@@ -52,7 +54,6 @@
                         <a href="#">Connect</a>
                         <ul class="menu">
                             <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Follow Us</a></li>
                             <li><a href="#">Events</a></li>
                             <li><a href="#">News</a></li>
                         </ul>
@@ -64,12 +65,13 @@
     <!-- End Navigation -->
 
     <!--Contact form start-->
-    <div align="center">
-    <section id="contact">
+    <div align="center" class="medium-12 columns">
+    <section id="contact" align="center">
         <h1>Contact us</h1>
         <p>You can contact us using the contact form below.</p>
+        <div align="center">
               <form action="contact.php" method="post" class="cform-form">
-                    <p><input type="text" name="name" placeholder="Full Name*" class="cform-text" size="40" title="Full Name"></p>
+                    <p><input type="text"  name="name" placeholder="Full Name*" class="cform-text" size="40" title="Full Name"></p>
                     <p><input type="text" name="email" placeholder="Email*" class="cform-text" size="40" title="Email"></p>
                     <p><input type="text" name="phone" placeholder="Phone*" class="cform-text" size="40" title="Your email"></p>
                   
@@ -77,6 +79,16 @@
                     <p><textarea name="comments" cols="40" rows="2" title="Drop us a line." placeholder="Your comment here"></textarea></p>
                    <p><input type="submit" value="Send message"></p>
               </form>
+        </div>
+              <hr>
+              
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-google"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+
+            
+
     </section>
   </div>
   <!--Contact form end-->
